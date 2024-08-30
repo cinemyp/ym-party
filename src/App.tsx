@@ -1,10 +1,11 @@
-function App() {
+import { MusicPlayer } from './components/player/MusicPlayer';
 
+function App() {
   return (
     <>
-      Hello
+      <MusicPlayer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
